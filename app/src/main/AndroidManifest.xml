@@ -33,7 +33,10 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Signup" />
         <activity android:name=".Register" />
-        <activity android:name=".Main2Activity"></activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".personal" />
+        <activity android:name=".business" />
+        <activity android:name=".interest"></activity>
     </application>
 
 </manifest>
