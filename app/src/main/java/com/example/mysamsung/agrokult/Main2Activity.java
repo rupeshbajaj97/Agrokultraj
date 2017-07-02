@@ -74,7 +74,7 @@ public class Main2Activity extends AppCompatActivity {
         startActivity(new Intent(Main2Activity.this,MainActivity.class));
     }
     public void shift (){
-        startActivity(new Intent(Main2Activity.this,personal.class));
+        startActivity(new Intent(Main2Activity.this,Personal.class));
     }
     public void shift2 (){
         Intent i = new Intent(this,business.class);
@@ -97,7 +97,7 @@ public class Main2Activity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item){
         int id=item.getItemId();
         if(id==R.id.action_username){
-            
+
 
            return true;
         }

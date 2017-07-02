@@ -34,9 +34,12 @@
         <activity android:name=".Signup" />
         <activity android:name=".Register" />
         <activity android:name=".Main2Activity" />
-        <activity android:name=".personal" />
         <activity android:name=".business" />
-        <activity android:name=".interest"></activity>
+        <activity android:name=".interest" />
+        <activity
+            android:name=".Personal"
+            android:label="@string/title_activity_personal"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>
