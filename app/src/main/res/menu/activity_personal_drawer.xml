@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Username" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Name" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Title and Company" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Website" />
+    </group>
+
+    <item android:title="Edit settings">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+
+                android:title="Personal Account Settings" />
+            <item
+                android:id="@+id/nav_send"
+
+                android:title="Edit personal profile" />
+            <item
+                android:id="@+id/nav_edit"
+
+                android:title="Edit business profile" />
+            <item
+                android:id="@+id/nav_interests"
+
+                android:title="Edit interests" />
+            <item
+                android:id="@+id/nav_language"
+
+                android:title="Language" />
+            <item
+                android:id="@+id/nav_contactus"
+
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/nav_support"
+
+                android:title="Support" />
+        </menu>
+    </item>
+    <item android:title="Agrokult Organised">
+    </item>
+
+</menu>

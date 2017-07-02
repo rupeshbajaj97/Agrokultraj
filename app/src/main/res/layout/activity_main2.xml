@@ -7,6 +7,17 @@
     android:orientation="vertical"
     android:background="@drawable/universaltheme"
     tools:context="com.techobbyist.signuplogin.MainActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        app:titleMarginStart="20dp"
+        android:paddingRight="10dp"
+        android:background="@color/colorPrimaryDark"
+         />
 
     <TextView
         android:layout_width="wrap_content"
