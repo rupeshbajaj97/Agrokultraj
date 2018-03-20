@@ -39,7 +39,18 @@
         <activity
             android:name=".Personal"
             android:label="@string/title_activity_personal"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".page"
+            android:label="@string/title_activity_page"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Main3Activity"
+            android:label="@string/title_activity_main3"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".mandi" />
+        <activity android:name=".message" />
+        <activity android:name=".profilefinal"></activity>
     </application>
 
 </manifest>

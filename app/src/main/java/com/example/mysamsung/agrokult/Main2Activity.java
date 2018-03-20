@@ -19,6 +19,7 @@ public class Main2Activity extends AppCompatActivity {
     private Button btninterest;
     private Button btnbusiness;
     private Button btnprofile;
+    private Button btnproceed;
 
 
     @Override
@@ -34,6 +35,14 @@ public class Main2Activity extends AppCompatActivity {
         if(!session.loggedin()){
             logout();
         }
+        btnproceed=(Button)findViewById(R.id.btnproceed) ;
+        btnproceed.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+
+                shift4();
+            }
+        });
         btnbusiness=(Button)findViewById(R.id.btnbusiness);
         btnbusiness.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -82,6 +91,10 @@ public class Main2Activity extends AppCompatActivity {
     }
     public void shift3 (){
         Intent i = new Intent(this,interest.class);
+        startActivity(i);
+    }
+    public void shift4(){
+        Intent i = new Intent (this,page.class);
         startActivity(i);
     }
 

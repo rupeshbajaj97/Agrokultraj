@@ -7,4 +7,27 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="title_activity_page">page</string>
+
+    <string name="share">Share Something</string>
+    <string name="post">Post</string>
+    <string name="explore">Explore</string>
+    <string name="search">Search</string>
+    <string name="whatshot">Whats Hot</string>
+    <string name="latest">Latest</string>
+    <string name="messages">Messages</string>
+    <string name="mandi">Mandi</string>
+    <string name="notification">Notification</string>
+    <string name="home">Home</string>
+    <string name="network">Network</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="name">Name</string>
+    <string name="organization">Title, Organization/Occupation</string>
+    <string name="postads">Post Ads</string>
+    <string name="networkbutton">Network</string>
+    <string name="messagebutton">Message</string>
+    <string name="importbutton">Import</string>
+    <string name="export">Export</string>
+    <string name="latestbutton">Latest</string>
+    <string name="title_activity_main3">Main3Activity</string>
 </resources>
